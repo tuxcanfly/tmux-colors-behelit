@@ -4,15 +4,15 @@ tmux set-option -g status-attr default
 
 tmux set-option -g status-left-bg colour69
 tmux set-option -g status-left-fg colour233
-tmux set-option -g status-left-attr bright
+tmux set-option -g status-left-attr dim
 
 tmux set-option -g status-right-bg colour69
 tmux set-option -g status-right-fg colour233
-tmux set-option -g status-right-attr bright
+tmux set-option -g status-right-attr dim
 
 tmux set-window-option -g window-status-fg colour233
 tmux set-window-option -g window-status-bg colour69
-tmux set-window-option -g window-status-attr dim
+tmux set-window-option -g window-status-attr bright
 
 tmux set-window-option -g window-status-current-fg colour69
 tmux set-window-option -g window-status-current-bg colour233
