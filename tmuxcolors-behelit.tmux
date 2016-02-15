@@ -20,6 +20,9 @@ tmux set-window-option -g window-status-current-bg colour233
 tmux set-option -g pane-border-fg colour239
 tmux set-option -g pane-active-border-fg colour83
 
+tmux set-option -g mode-bg colour83
+tmux set-option -g mode-fg colour233
+
 tmux set-option -g message-bg colour233
 tmux set-option -g message-fg colour83
 
